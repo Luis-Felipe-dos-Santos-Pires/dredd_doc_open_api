@@ -10,7 +10,7 @@ info:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
   x-logo:
-    url: "https://raw.githubusercontent.com/Luis-Felipe-dos-Santos-Pires/dredd_doc_open_api/5288bf543ec9816230dbb7193b3f6e2ed8c6dbff/docs/Dredd.png?token=GHSAT0AAAAAAB3SK4KRJOFDCW2VNCIGWI6KY4OPN4Q"
+    url: "https://raw.githubusercontent.com/Luis-Felipe-dos-Santos-Pires/dredd_doc_open_api/staging/docs/Dredd.png"
   description:
     $ref: ./info-description.md
 tags:

@@ -1,0 +1,11 @@
+get:
+  tags:
+    - Rules
+
+  x-ISC_CORS: true
+  operationId: createPaymentReceipt
+  responses:
+    201:
+    401:
+    404:
+    500:

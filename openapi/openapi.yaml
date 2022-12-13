@@ -13,6 +13,7 @@ info:
     url: "https://raw.githubusercontent.com/Luis-Felipe-dos-Santos-Pires/dredd_doc_open_api/staging/docs/Dredd.png"
   description:
     $ref: ./info-description.md
+
 tags:
   - name: Echo
     description: Example echo operations.
@@ -20,6 +21,10 @@ tags:
     description: Operations about users.
   - name: Tag
     description: This is a tag description.
+  - name: Rules
+    description: Operations about rules.
+
+
 servers:
   - url: 'https://{tenant}/api/v1'
     variables:
@@ -27,6 +32,7 @@ servers:
         default: www
         description: Your tenant id
   - url: 'https://example.com/api/v1'
+
 paths:
   '/users/{username}':
     $ref: 'paths/users_{username}.yaml'
@@ -36,6 +42,9 @@ paths:
     $ref: paths/path-item.yaml
   /pathItemWithExamples:
     $ref: paths/path-item-with-examples.yaml
+
+
+
 components:
   securitySchemes:
     main_auth:

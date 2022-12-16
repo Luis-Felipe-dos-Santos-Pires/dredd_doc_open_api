@@ -1,0 +1,30 @@
+type: object
+properties:
+  id:
+    description: Rule ID
+    type: string
+  name:
+    description: Rule name
+    type: string
+  badge:
+    description: Rule badge
+    type: string
+  documentation:
+    description: Description of the case that the rule prevent
+    type: string
+  offenseLevel:
+    description: Rule offense level
+    type: number
+    format: integer
+  ruleClass:
+    description: Rule class, where the rule is implemented
+    type: string
+  severity:
+    description: Rule severity
+    type: string
+  params:
+    description: Rule params
+    type: string
+  type:
+    description: Rule type
+    type: string

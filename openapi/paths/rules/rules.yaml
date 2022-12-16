@@ -1,11 +1,16 @@
 get:
   tags:
     - Rules
-
+  summary: Rules
+  description: Return all the rules
   x-ISC_CORS: true
-  operationId: createPaymentReceipt
+  operationId: rules
   responses:
-    201:
+    200:
+      $ref: ../../components/responses/Rules.yaml
     401:
+      $ref: ../../components/responses/AccessForbidden.yaml
     404:
+      $ref: ../../components/responses/NotFound.yaml
     500:
+      $ref: ../../components/responses/InternalServerError.yaml

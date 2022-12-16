@@ -42,7 +42,8 @@ paths:
     $ref: paths/path-item.yaml
   /pathItemWithExamples:
     $ref: paths/path-item-with-examples.yaml
-
+  "/rules":
+    $ref: "paths/rules/rules.yaml"
 
 
 components:

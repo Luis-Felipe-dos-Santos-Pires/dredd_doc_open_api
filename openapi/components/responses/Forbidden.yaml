@@ -1,0 +1,5 @@
+description: 'Acesso Proibído, Invalid resource'
+content:
+  application/json:
+    schema:
+      $ref: ../schemas/Error.yaml

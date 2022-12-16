@@ -1,0 +1,56 @@
+put:
+  tags:
+    - Rules
+  summary: Edit rule
+  
+  x-ISC_CORS: true
+  operationId: rulePut
+  parameters:
+    $ref: ../../components/parameters/Rule/Rule.yaml
+  requestBody:
+    $ref: ../../components/requestBodies/Order/Pendency.yaml
+  responses:
+    201:
+      $ref: ../../components/responses/Order/Pendency.yaml
+    401:
+      $ref: ../../components/responses/AccessForbidden.yaml
+    409:
+      $ref: ../../components/responses/Conflict.yaml
+    500:
+      $ref: ../../components/responses/InternalServerError.yaml
+
+get:
+  tags:
+    - Rules
+  summary: Get rule
+  
+  x-ISC_CORS: true
+  operationId: ruleGet
+  responses:
+    200:
+      $ref: ../../components/responses/Order/Pendencies.yaml
+    401:
+      $ref: ../../components/responses/AccessForbidden.yaml
+    404:
+      $ref: ../../components/responses/NotFound.yaml
+    500:
+      $ref: ../../components/responses/InternalServerError.yaml
+
+delete:
+  tags:
+    - Rules
+  summary: Delete rule
+  
+  x-ISC_CORS: true
+  operationId: ruleDelete
+  parameters:
+    $ref: ../../components/parameters/Rule/Rule.yaml
+  responses:
+    200:
+      $ref: ../../components/responses/Order/Pendencies.yaml
+    401:
+      $ref: ../../components/responses/AccessForbidden.yaml
+    404:
+      $ref: ../../components/responses/NotFound.yaml
+    500:
+      $ref: ../../components/responses/InternalServerError.yaml

@@ -4,4 +4,4 @@ content:
     schema:
       type: array
       items:
-        $ref: ../schemas/Rules/Rule.yaml
+        $ref: ../schemas/Rule/Rule.yaml

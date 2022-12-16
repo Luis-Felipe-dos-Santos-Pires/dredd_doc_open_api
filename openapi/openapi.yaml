@@ -43,11 +43,11 @@ paths:
   /pathItemWithExamples:
     $ref: paths/path-item-with-examples.yaml
   "/rules":
-    $ref: "paths/rules/rules.yaml"
+    $ref: "paths/rule/rules.yaml"
   "/rule/{id}":
-    $ref: "paths/rules/rule.yaml"
+    $ref: "paths/rule/rule@{id}.yaml"
   "/rule/":
-    $ref: "paths/rules/ruleCreation.yaml"
+    $ref: "paths/rules/rule.yaml"
 
 
 components:

@@ -1,0 +1,6 @@
+- name: id
+  in: path
+  description: Rule ID
+  required: true
+  type: integer
+  format: int32

@@ -1,4 +1,4 @@
-description: 'Acesso Proibído, Invalid resource'
+description: 'Forbidden access'
 content:
   application/json:
     schema:

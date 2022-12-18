@@ -1,4 +1,6 @@
-# OpenAPI Definition Starter
+# DREDD Project
+
+The DREDD project is a lexical linter for the Intersystems ObjectScript. Actually, is used on Intersystems Studio to provide some security guarantees for the migration from Caché to IRIS.
 
 ## How to use this starter
 

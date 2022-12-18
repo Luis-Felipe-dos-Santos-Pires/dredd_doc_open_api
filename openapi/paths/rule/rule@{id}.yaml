@@ -1,7 +1,7 @@
 put:
   tags:
     - Rules
-  summary: Edit rule
+  summary: Rule
   
   x-ISC_CORS: true
   operationId: rulePut
@@ -13,7 +13,7 @@ put:
     201:
       $ref: ../../components/responses/Order/Pendency.yaml
     401:
-      $ref: ../../components/responses/AccessForbidden.yaml
+      $ref: ../../components/responses/Forbidden.yaml
     409:
       $ref: ../../components/responses/Conflict.yaml
     500:
@@ -22,7 +22,7 @@ put:
 get:
   tags:
     - Rules
-  summary: Get rule
+  summary: Rule
   
   x-ISC_CORS: true
   operationId: ruleGet
@@ -30,7 +30,7 @@ get:
     200:
       $ref: ../../components/responses/Order/Pendencies.yaml
     401:
-      $ref: ../../components/responses/AccessForbidden.yaml
+      $ref: ../../components/responses/Forbidden.yaml
     404:
       $ref: ../../components/responses/NotFound.yaml
     500:
@@ -39,7 +39,7 @@ get:
 delete:
   tags:
     - Rules
-  summary: Delete rule
+  summary: Rule
   
   x-ISC_CORS: true
   operationId: ruleDelete
@@ -49,7 +49,7 @@ delete:
     200:
       $ref: ../../components/responses/Order/Pendencies.yaml
     401:
-      $ref: ../../components/responses/AccessForbidden.yaml
+      $ref: ../../components/responses/Forbidden.yaml
     404:
       $ref: ../../components/responses/NotFound.yaml
     500:

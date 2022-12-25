@@ -6,7 +6,7 @@ The project is organized to attend various bases of code with different necessit
 - Project: the container of jurisdictions.
 - Jurisdiction: a group of rules that are applied on a project.
 - Rule: the conference of some specific scope on the code
-    - Persistent rules: are applied only on %Persistent classes.
-    - Class rules: applied on the declaration of the classes.
-    - Method rules: are applied on ClassMethods, Methods and ClientMethods.
+    - Persistent: are applied only on %Persistent classes.
+    - Class: applied on the declaration of the classes.
+    - Method: are applied on ClassMethods, Methods and ClientMethods.
 
